@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>main</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fenix" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body id="main">
+    <div id="top">
+        <nav class="view top-nav clearfix">
+            <div class="icon-menu"></div>
+            <div class="logged-in">
+                <p>logged in as Anisat</p>
+            </div>
+        </nav>
+    </div>
+    <div id="side">
+        <div class="side-menu">
+            <div class="icon-close"></div>
+            <div class="avatar"></div>
+            <ul class="links">
+                <li class="link dashboard-btn">Dashboard</li>
+                <li class="link activity-btn">Today's Activity</li>
+                <li class="link new-task-btn">New Task</li>
+                <li class="link text-color-mint signout-btn">Sign Out</li>
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        <ul class="pages">
+            <li class="view full-page dashboard active">
+                <div class="header">
+                    <h3>anisat yunusa</h3>
+                </div>
+                <ul class="current-details">
+                    <li class="current-detail clearfix">
+                        <div class="icon icon-date"></div>
+                        <div class="text">
+                            <h4>Current date</h4>
+                            <p>7 July, 2018</p>
+                        </div>
+                    </li>
+                    <li class="current-detail clearfix">
+                        <div class="icon icon-location"></div>
+                        <div class="text">
+                            <h4>Current location</h4>
+                            <p>lagos, Nigeria</p>
+                        </div>
+                    </li>
+                    <li class="current-detail clearfix">
+                        <div class="icon icon-temp"></div>
+                        <div class="text">
+                            <h4>Temperature in your area</h4>
+                            <p>26&#8451;</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="view full-page todays-activity">
+                <div class="header">
+                    <p class="text-color-mint">today's activity</p>
+                    <h3>7 July, 2018</h3>
+                </div>
+                <ul class="tasks">
+                    <li class="task clearfix">
+                        <label for="check-box"></label>
+                        <input type="checkbox" id="check-box">
+                        <div class="details">
+                            <p class="description">Meeting with friends</p>
+                            <div class="down clearfix">
+                                <div class="alarm clearfix">
+                                    <div class="icon-notif"></div>
+                                    <p class="alarm-time">07:00 am</p>
+                                </div>
+                                <div class="category clearfix">
+                                    <div class="icon-category"></div>
+                                    <p class="categ">friends</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="view full-page new-task">
+                <div class="input-box">
+                    <label class="descrip-label">Description</label>
+                    <textarea class= "field-text" placeholder="What do you want to do..." cols="30" rows="10"></textarea>
+                </div>
+                <div class="select-category">
+                    <h4 class="categ-label">Category</h4>
+                    <ul class="category-box clearfix">
+                        <li class="category-home clearfix">
+                            <div class="icon icon-home"></div>
+                            <p>home</p>
+                        </li>
+                        <li class="category-work clearfix">
+                            <div class="icon icon-work"></div>
+                            <p>work</p>
+                        </li>
+                        <li class="category-friends clearfix">
+                            <div class="icon icon-friends"></div>
+                            <p>friends</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="datetime">
+                    <h4 class="datetime-label">Date and Time</h4>
+                    <ul class="datetime-box">
+                        <li class="date-box clearfix">
+                            <p>Date</p>
+                            <div class="right clearfix">
+                                <p class="">7 July, 2018</p>
+                                <div class="icon-right"></div>
+                            </div>
+                        </li>
+                        <li class="time-box clearfix">
+                            <p>Title</p>
+                            <div class="right clearfix">
+                                <p>12:00pm</p>
+                                <div class="icon-right"></div>
+                            </div>
+                        </li>
+                        <li class="alarm-box clearfix">
+                            <p>Alarm</p>
+                            <div class="right clearfix">
+                                <p>off</p>
+                                <div class="icon-right"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button type="submit" class="def-btn addtask-btn ">ADD TASK</button>
+            </li>
+        </ul>
+    </div>
+    <!-- <div class="grids">        
+        <input type="checkbox" name="switch" id="switch" class="switch">
+        <label for="switch" class="switch-trigger">Toggle Grids</label>
+            <div class="grid">
+                    <div class="base-line b1"></div>
+                    <div class="base-line b2"></div>
+            </div>
+            <div id="guides">
+                <div class="guide g0">
+                    <div></div>
+                </div>
+                <div class="guide g1">
+                    <div></div>
+                </div>
+                <div class="guide g2">
+                    <div></div>
+                </div>
+                <div class="guide g3">
+                    <div></div>
+                </div>
+                <div class="guide g4">
+                    <div></div>
+                </div>
+                <div class="guide g5">
+                    <div></div>
+                </div>
+                <div class="guide g6">
+                    <div></div>
+                </div>
+                <div class="guide g7">
+                    <div></div>
+                </div>
+                <div class="guide g8">
+                    <div></div>
+                </div>
+                <div class="guide g9">
+                    <div></div>
+                </div>
+                <div class="guide g10">
+                    <div></div>
+                </div>
+                <div class="guide g11">
+                    <div></div>
+                </div>
+                <div class="guide g12">
+                    <div></div>
+                </div>
+                <div class="guide g13">
+                    <div></div>
+                </div>
+                <div class="guide g14">
+                    <div></div>
+                </div>
+                <div class="guide g15">
+                    <div></div>
+                </div>
+                <div class="guide g16">
+                    <div></div>
+                </div>
+            </div>
+    </div> -->
+    <script src="main.js"></script>
+</body>
+</html>
